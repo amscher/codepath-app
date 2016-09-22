@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F440230D1D8F9FB100706C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440230C1D8F9FB100706C9E /* AppDelegate.swift */; };
-		F440230F1D8F9FB100706C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440230E1D8F9FB100706C9E /* ViewController.swift */; };
+		F440230F1D8F9FB100706C9E /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440230E1D8F9FB100706C9E /* TipViewController.swift */; };
 		F44023121D8F9FB100706C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44023101D8F9FB100706C9E /* Main.storyboard */; };
 		F44023141D8F9FB100706C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44023131D8F9FB100706C9E /* Assets.xcassets */; };
 		F44023171D8F9FB100706C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44023151D8F9FB100706C9E /* LaunchScreen.storyboard */; };
 		F44023221D8F9FB100706C9E /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44023211D8F9FB100706C9E /* tipperTests.swift */; };
 		F440232D1D8F9FB100706C9E /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440232C1D8F9FB100706C9E /* tipperUITests.swift */; };
+		F440233B1D941ECA00706C9E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440233A1D941ECA00706C9E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F44023091D8F9FB100706C9E /* tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440230C1D8F9FB100706C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F440230E1D8F9FB100706C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F440230E1D8F9FB100706C9E /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		F44023111D8F9FB100706C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44023131D8F9FB100706C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44023161D8F9FB100706C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		F44023281D8F9FB100706C9E /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440232C1D8F9FB100706C9E /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		F440232E1D8F9FB100706C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F440233A1D941ECA00706C9E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				F440230C1D8F9FB100706C9E /* AppDelegate.swift */,
-				F440230E1D8F9FB100706C9E /* ViewController.swift */,
+				F440230E1D8F9FB100706C9E /* TipViewController.swift */,
 				F44023101D8F9FB100706C9E /* Main.storyboard */,
+				F440233A1D941ECA00706C9E /* SettingsViewController.swift */,
 				F44023131D8F9FB100706C9E /* Assets.xcassets */,
 				F44023151D8F9FB100706C9E /* LaunchScreen.storyboard */,
 				F44023181D8F9FB100706C9E /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F440230F1D8F9FB100706C9E /* ViewController.swift in Sources */,
+				F440230F1D8F9FB100706C9E /* TipViewController.swift in Sources */,
 				F440230D1D8F9FB100706C9E /* AppDelegate.swift in Sources */,
+				F440233B1D941ECA00706C9E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
